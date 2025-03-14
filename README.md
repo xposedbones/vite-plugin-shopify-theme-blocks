@@ -46,7 +46,7 @@ Add the plugin to your plugin list and make sure it is loaded before the shopify
 ```
 plugins: [
   ...
-  FlattenThemBlocks(),
+  FlattenThemeBlocks(),
   shopify(),
   ...
 ]
