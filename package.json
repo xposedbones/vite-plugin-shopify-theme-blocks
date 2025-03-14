@@ -1,0 +1,22 @@
+{
+  "name": "vite-plugin-flatten-theme-blocks",
+  "version": "1.0.0",
+  "description": "A Vite plugin to flatten and copy .liquid files from nested theme blocks into the supported flat directory structure that shopify requires",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "liquid",
+    "shopify"
+  ],
+  "author": "Benoit Lavoie-Lamer <xposedbones@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "vitest": "^3.0.8"
+  }
+}
